@@ -388,5 +388,5 @@ background-color: #2196F3;
         margin: 0px 24px 20px;
 }
 .gallery-product-item:nth-last-child(-n+1){
-    margin-bottom: 94px;
+    margin-bottom: 0px;
 }
