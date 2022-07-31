@@ -1,6 +1,5 @@
 body{
     font-family: Roboto;
-    background-color: #E5E5E5;
 }
 .list{
     list-style: none;
@@ -52,9 +51,9 @@ img{
     color: #2196F3;
 }
 .header{
-    padding-top: 24;
+    padding-top: 24px;
     padding-bottom: 25px;
-    background: #F5F5F5;
+    border-bottom: 1px solid #ECECEC;
 }
 .header > .container{
     display: flex;
@@ -150,7 +149,6 @@ img{
 .about{
     padding-top: 94px;
     padding-bottom: 94px;
-    background: #F5F5F5;
 }
 .about-list{
     display: flex;
@@ -199,7 +197,6 @@ font-weight: 700;
 .projects{
     padding-top: 0px;
     padding-bottom: 94px;
-    background: #F5F5F5;
 }
 .projects-list {
     display: flex;
@@ -221,7 +218,6 @@ font-weight: 700;
 }
 /*****************team*****************/
 .team{
-    
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -243,7 +239,7 @@ font-weight: 700;
         border-radius: 0px 0px 4px 4px;
 }
 .team-photo{
-    margin-bottom: 30px;
+  
 }
 .team-title{
     font-weight: 700;
@@ -261,7 +257,10 @@ font-weight: 700;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--title-colot);
-        margin-bottom: 10px;
+}
+.team-info{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-text{
@@ -270,7 +269,7 @@ line-height: calc(19/16);
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-color);
-margin-bottom: 30px;
+
 }
 /*****************footer*****************/
 .footer{
@@ -343,10 +342,7 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-colot);
-width: 130px;
-height: 38px;
-left: 957px;
-top: 174px;
+padding: 6px 22px;
 
 background: #F5F4FA;
 border-radius: 4px;
@@ -378,14 +374,17 @@ background-color: #2196F3;
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--title-colot);
-        margin: 20px 24px 4px;
 }
 .gallery-product-text{
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;
         color: var(--main-color);
-        margin: 0px 24px 20px;
+}
+.gallery-info{
+    padding: 20px 24px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 .gallery-product-item:nth-last-child(-n+1){
     margin-bottom: 0px;
