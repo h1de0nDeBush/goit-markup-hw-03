@@ -94,7 +94,9 @@ img{
 .header-link:hover,
 .header-mail:hover,
 .header-link:focus,
-.header-phone:hover{
+.header-phone:hover,
+.header-mail:focus,
+.header-phone:focus{
     color:var(--accent-color);
 }
 
@@ -227,19 +229,12 @@ font-weight: 700;
     column-gap: 30px;
 }
 .team-item{
-        width: 270px;
-        height: 368px;
-        left: 815px;
-        top: 1632px;
-    
+        width: 270px;  
         background: #FFFFFF;
         /* material shadow v1 */
     
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
-}
-.team-photo{
-  
 }
 .team-title{
     font-weight: 700;
@@ -257,6 +252,7 @@ font-weight: 700;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--title-colot);
+        margin-bottom: 10px;
 }
 .team-info{
     padding-top: 30px;
@@ -354,17 +350,11 @@ background-color: #2196F3;
 .gallery-product-list{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-around;
-    column-gap: 30px;
+    gap: 30px;
 }
 .gallery-product-item{
-    margin-bottom: 30px;
     box-sizing: border-box;
         width: 370px;
-        height: 404px;
-        left: 215px;
-        top: 262px;
         background: #FFFFFF;
         
 }
